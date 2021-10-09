@@ -4,30 +4,30 @@
 
 Maven
 ```xml
-	<repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+<repositories>
+	<repository>
+		<id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	</repository>
+</repositories>
   
-  <dependency>
-	    <groupId>com.github.tererun</groupId>
-	    <artifactId>KabenobashiMeiro</artifactId>
-	    <version>Tag</version>
-	</dependency>
+<dependency>
+    <groupId>com.github.tererun</groupId>
+    <artifactId>KabenobashiMeiro</artifactId>
+    <version>Tag</version>
+</dependency>
 ```
 
 Gradle
 ```gradle
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
   
- 	dependencies {
-	        implementation 'com.github.tererun:KabenobashiMeiro:Tag'
-	}
+dependencies {
+	implementation 'com.github.tererun:KabenobashiMeiro:Tag'
+}
 ```
