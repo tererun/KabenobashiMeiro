@@ -6,10 +6,6 @@ import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public class KabenobashiMeiro {
-    public static void main(String[] args) {
-        new KabenobashiMeiro().run();
-    }
-
     private final int maxX;
     private final int maxY;
 
@@ -17,9 +13,9 @@ public class KabenobashiMeiro {
     private List<Structure> nodes;
     private List<Structure> path;
 
-    public KabenobashiMeiro() {
-        this.maxX = 15;
-        this.maxY = 15;
+    public KabenobashiMeiro(int maxX, int maxY) {
+        this.maxX = maxX;
+        this.maxY = maxY;
         this.field = new int[this.maxX][this.maxY];
         this.nodes = new ArrayList<>();
         this.path = new ArrayList<>();
