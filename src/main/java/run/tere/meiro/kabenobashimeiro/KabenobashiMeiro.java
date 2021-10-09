@@ -57,6 +57,11 @@ public class KabenobashiMeiro {
         }
     }
 
+    public int[][] getField() {
+        makeWall();
+        return field;
+    }
+
     public void makeWall() {
         if (this.nodes.size() <= 0) return;
         Collections.shuffle(this.nodes);
