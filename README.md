@@ -7,14 +7,14 @@ Maven
 <repositories>
 	<repository>
 		<id>jitpack.io</id>
-	    <url>https://jitpack.io</url>
+		<url>https://jitpack.io</url>
 	</repository>
 </repositories>
   
 <dependency>
-    <groupId>com.github.tererun</groupId>
-    <artifactId>KabenobashiMeiro</artifactId>
-    <version>Tag</version>
+	<groupId>com.github.tererun</groupId>
+	<artifactId>KabenobashiMeiro</artifactId>
+	<version>Tag</version>
 </dependency>
 ```
 
